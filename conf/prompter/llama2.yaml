@@ -4,7 +4,7 @@ defaults:
 
 llm_params:
   model_name: "llama2-7b"
-  checkpoint: 'meta-llama/Llama-2-7b-hf' # or replace with local DIR
+  checkpoint: '../model-cache/llama-2-7b-chat-hf' # or replace with local DIR
   lora_params:
     warmstart: false
     lora_checkpoint: "${data.data_dir}/checkpoints/warmstart_v2" # change this path as necessary
