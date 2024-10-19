@@ -4,7 +4,7 @@ defaults:
 
 llm_params:
   model_name: "falcon-7b-instruct"
-  checkpoint: '../model-cache/models--tiiuae--falcon-7b-instruct/snapshots/8782b5c5d8c9290412416618f36a133653e85285/' # or replace with local DIR
+  checkpoint: './model-cache/models--tiiuae--falcon-7b-instruct/snapshots/8782b5c5d8c9290412416618f36a133653e85285/' # or replace with local DIR
 prompt_manager:
   prompt_template:
     - key: system_message

@@ -6,10 +6,10 @@ defaults:
 verbose: false
 seed: 2023
 reweight_loss: true
-output_dir: "./exp/local/${now:%Y.%m.%d}/${now:%H%M}"
+output_dir: "./advprompter/exp/local/${now:%Y.%m.%d}/${now:%H%M}"
 
 data:
-  data_dir: "./data"
+  data_dir: "./advprompter/data"
   test_prefixes_pth: "${data.data_dir}/test_prefixes.csv"
   affirmative_prefixes_pth: "${data.data_dir}/affirmative_prefixes.csv"
 
