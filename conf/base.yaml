@@ -1,15 +1,15 @@
 defaults:
   - prompter: tiny_llama
-  - target_llm: falcon_chat  # one of: llama2_chat, vicuna_chat, mistral_chat, pythia_chat, falcon_chat, gemma_chat, tiny_llama_chat (see corresponding .yaml in conf/target_llm/)
+  - target_llm: llama2_chat  # one of: llama2_chat, vicuna_chat, mistral_chat, pythia_chat, falcon_chat, gemma_chat, tiny_llama_chat (see corresponding .yaml in conf/target_llm/)
   - _self_
   
 verbose: false
 seed: 2023
 reweight_loss: true
-output_dir: "./advprompter/exp/local/${now:%Y.%m.%d}/${now:%H%M}"
+output_dir: "./advprompter-copy/exp/local/${now:%Y.%m.%d}/${now:%H%M}"
 
 data:
-  data_dir: "./advprompter/data"
+  data_dir: "./advprompter-copy/data"
   test_prefixes_pth: "${data.data_dir}/test_prefixes.csv"
   affirmative_prefixes_pth: "${data.data_dir}/affirmative_prefixes.csv"
 

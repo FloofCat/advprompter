@@ -4,7 +4,7 @@ defaults:
 
 llm_params:
   model_name: "llama2-7b-chat"
-  checkpoint: 'meta-llama/Llama-2-7b-chat-hf' # or replace with local DIR
+  checkpoint: './model-cache/models--meta-llama--Llama-2-7b-chat-hf/snapshots/f5db02db724555f92da89c216ac04704f23d4590/' # or replace with local DIR
 prompt_manager:
   prompt_template:
     - key: system_message
