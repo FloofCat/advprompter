@@ -4,7 +4,7 @@ defaults:
 
 llm_params:
   model_name: "llama3-8b-chat"
-  checkpoint: 'meta-llama/Meta-Llama-3-8B-Instruct' # or replace with local DIR
+  checkpoint: './model-cache/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/5f0b02c75b57c5855da9ae460ce51323ea669d8a/' # or replace with local DIR
 prompt_manager:
   prompt_template:
     - key: system_message
