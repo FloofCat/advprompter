@@ -1,5 +1,5 @@
 defaults:
-  - prompter: llama2
+  - prompter: tiny_llama
   - target_llm: falcon_chat  # one of: llama2_chat, vicuna_chat, mistral_chat, pythia_chat, falcon_chat, gemma_chat, tiny_llama_chat (see corresponding .yaml in conf/target_llm/)
   - _self_
   
