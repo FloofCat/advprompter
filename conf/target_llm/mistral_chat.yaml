@@ -4,7 +4,7 @@ defaults:
 
 llm_params:
   model_name: "mistral-7b-instruct"
-  checkpoint: 'mistralai/Mistral-7B-Instruct-v0.2' # or replace with local DIR
+  checkpoint: './model-cache/models--mistralai--Mistral-7B-Instruct-v0.3/snapshots/e0bc86c23ce5aae1db576c8cca6f06f1f73af2db/' # or replace with local DIR
 prompt_manager:
   prompt_template:
     - key: system_message
