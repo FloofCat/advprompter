@@ -36,7 +36,7 @@ train:
     max_new_tokens: 30
     num_beams: 4
     repetition_penalty: 1.2
-    top_k: 36 # try to reduce this or increase num_chunks if doesn't fit to memory
+    top_k: 32 # try to reduce this or increase num_chunks if doesn't fit to memory
     num_chunks: 4  # process top_k iteratively in chunks, helps reduce memory, should divide top_k
     lambda_val: 100  # w2 in AutoDAN paper, controls perplexity vs loss tradeoff (50-100 is good)
     candidates:
